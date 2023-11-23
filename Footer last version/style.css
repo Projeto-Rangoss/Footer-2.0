@@ -6,6 +6,7 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    
 }
 
 div{
@@ -37,10 +38,16 @@ a{
 
 .chess img{
     height: 20%;
-
 }
+
+
 .deskimg img{
     height: 75%;
+}
+
+.deskicon{
+    height: 25px;
+    width: 25px;
 }
 
 @media (max-width: 800px) {
@@ -67,7 +74,7 @@ a{
     }
 
     .icon{
-        padding-top: 300px ;
+        padding-top: 300px;
         padding-left: 30px;
     }
 
@@ -81,12 +88,10 @@ a{
         place-self: end;
         padding-bottom: 175px;
 
-
     }
 
     .chess img{
         height: 75%;
         
     }
-
 }
